@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Anniversary ❤️</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- ========================= -->
+<!-- PASSWORD SCREEN -->
+<!-- ========================= -->
+
+<div id="passwordScreen">
+
+    <div class="password-card">
+
+        <h1>🔒 Private Love Website</h1>
+
+        <p>Masukkan tanggal jadian kita ❤️</p>
+
+        <input
+            type="password"
+            id="passwordInput"
+            placeholder="26062026"
+        >
+
+        <button id="enterWebsite">
+
+            Masuk ❤️
+
+        </button>
+
+        <p id="wrongPassword"></p>
+
+    </div>
+
+</div>
+<!-- ========================= -->
+<!-- Loading Screen -->
+<!-- ========================= -->
+
+<div id="loading">
+
+    <div class="loader-heart">❤️</div>
+
+    <h2>Loading Love...</h2>
+
+</div>
+
+<!-- Floating Hearts -->
+
+<div id="heart-container"></div>
+<div id="stars"></div>
+<div id="clouds"></div>
+<div id="sakura-container"></div>
+<!-- Cursor -->
+
+<div id="cursor-heart"></div>
+
+<!-- ========================= -->
+<!-- Hero -->
+<!-- ========================= -->
+
+<section class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+        <h1 id="typing"></h1>
+
+        <p>
+            61 Hari Mengenalmu ❤️
+        </p>
+
+        <button id="openLetter">
+            💌 Buka Surat Cinta
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- Counter -->
+<!-- ========================= -->
+
+<section class="counter-section">
+
+<h2>
+Sudah Bersama
+</h2>
+
+<div class="counter-box">
+
+<div class="time">
+<span id="days">0</span>
+<p>Hari</p>
+</div>
+
+<div class="time">
+<span id="hours">0</span>
+<p>Jam</p>
+</div>
+
+<div class="time">
+<span id="minutes">0</span>
+<p>Menit</p>
+</div>
+
+<div class="time">
+<span id="seconds">0</span>
+<p>Detik</p>
+</div>
+
+</div>
+
+<p class="date">
+Pacaran sejak
+<b>26 Juni 2026</b>
+</p>
+
+</section>
+<section class="love-meter">
+
+    <h2>Love Meter ❤️</h2>
+
+    <div class="meter">
+
+        <div id="loveFill"></div>
+
+    </div>
+
+    <p>100% ❤️</p>
+
+</section>
+<!-- ========================= -->
+<!-- Timeline -->
+<!-- ========================= -->
+
+<section class="timeline">
+
+<h2>
+Perjalanan Kita ❤️
+</h2>
+
+<div class="timeline-item">
+
+<div class="circle"></div>
+
+<div class="content">
+
+<h3>
+25 Mei 2026
+</h3>
+
+<p>
+Hari pertama kita saling mengenal.
+Awal dari cerita indah yang tidak pernah aku sangka.
+</p>
+
+</div>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="circle"></div>
+
+<div class="content">
+
+<h3>
+26 Juni 2026
+</h3>
+
+<p>
+Hari dimana kita resmi bersama ❤️
+Hari yang akan selalu aku ingat dan merupakan sesuatu hari yang paling istimewa.
+</p>
+
+</div>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="circle"></div>
+
+<div class="content">
+
+<h3>
+26 Juli 2026
+</h3>
+
+<p>
+30 Hari kita menjalani hubungan.
+Semoga menjadi awal dari perjalanan kita yang panjang.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- Gallery -->
+<!-- ========================= -->
+
+<section class="gallery">
+
+<h2>
+Our Memories 📸
+</h2>
+
+<div class="gallery-container">
+
+<img src="assets/img/photo13.jpeg">
+
+<img src="assets/img/photo2.jpg">
+
+<img src="assets/img/photo3.jpg">
+<img src="assets/img/photo4.jpeg">
+<img src="assets/img/photo5.jpeg">
+<img src="assets/img/photo6.jpeg">
+<img src="assets/img/photo7.jpeg">
+<img src="assets/img/photo8.jpeg">
+<img src="assets/img/photo9.jpeg">
+<img src="assets/img/photo10.jpeg">
+<img src="assets/img/photo11.jpeg">
+<img src="assets/img/photo12.jpeg">
+<img src="assets/img/photo13.jpeg">
+<img src="assets/img/photo14.jpeg">
+<img src="assets/img/photo15.jpeg">
+<img src="assets/img/photo16.jpeg">
+<img src="assets/img/photo17.jpeg">
+<img src="assets/img/photo18.jpeg">
+<img src="assets/img/photo19.jpeg">
+<img src="assets/img/photo20.jpeg">
+<img src="assets/img/photo21.jpeg">
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- Gift -->
+<!-- ========================= -->
+
+<section class="gift">
+
+<h2>
+Aku Punya Hadiah 🎁
+</h2>
+
+<div id="giftBox">
+
+🎁
+
+</div>
+
+<p id="giftText">
+I LOVE YOU ❤️
+</p>
+
+</section>
+
+<!-- ========================= -->
+<!-- Love Letter -->
+<!-- ========================= -->
+
+<div id="letterModal">
+
+<div class="letter">
+
+<span id="close">
+✖
+</span>
+
+<h2>
+Untuk Kamu ❤️
+</h2>
+
+<p>
+
+Terima kasih telah hadir dalam hidupku.
+
+61 hari mengenalmu adalah salah satu perjalanan terindah yang pernah aku rasakan.
+
+Dan 30 hari menjadi pasanganmu membuatku semakin yakin bahwa aku ingin terus berjalan bersamamu.
+
+Semoga setiap langkah kita dipenuhi kebahagiaan, tawa, dan doa yang baik.
+
+Aku mungkin belum sempurna.
+
+Tetapi aku akan selalu berusaha menjadi seseorang yang mampu membuatmu tersenyum setiap hari.
+
+Happy Anniversary Sayang ❤️
+
+I Love You Forever.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- ========================= -->
+<!-- Music -->
+<!-- ========================= -->
+
+<audio id="music" loop>
+
+<source src="assets/music/love.mp3" type="audio/mpeg">
+
+</audio>
+
+<button id="musicBtn">
+
+🎵
+
+</button>
+<section class="next-anniversary">
+
+<h2>Countdown Anniversary Selanjutnya ❤️</h2>
+
+<div class="counter-box">
+
+<div class="time">
+
+<span id="nextDay">0</span>
+
+<p>Hari</p>
+
+</div>
+
+<div class="time">
+
+<span id="nextHour">0</span>
+
+<p>Jam</p>
+
+</div>
+
+<div class="time">
+
+<span id="nextMinute">0</span>
+
+<p>Menit</p>
+
+</div>
+
+<div class="time">
+
+<span id="nextSecond">0</span>
+
+<p>Detik</p>
+
+</div>
+
+</div>
+
+</section>
+<!-- ===================== -->
+<!-- LOVE BOOK -->
+<!-- ===================== -->
+
+<section class="memory-book">
+
+<h2>📖 Buku Kenangan</h2>
+
+<div class="book">
+
+<div class="page active">
+
+<h3>25 Mei 2026</h3>
+
+<p>
+
+Hari pertama kita saling mengenal.
+Siapa sangka pertemuan disebuah game ini menjadi sebuah pertemuan yang spesial,
+berawal dari panggilan kakak dan panggilan miss ikaa, 
+sekarang semua itu telah berubah menjadi suatu kata yang spesial yaitu "Sayang"💕
+
+</p>
+
+</div>
+
+<div class="page">
+
+<h3>26 Juni 2026</h3>
+
+<p>
+
+Di hari ini, hari dimana aku resmi memilikimu ❤️
+
+Hari yang akan selalu menjadi tanggal favoritku.
+Hari dimana aku telah memutuskan suatu keputusan yang telah aku simpan selama proses perkenalan kita,
+dan akhirnya hari ini menjadi suatu hari yang sangat spesial yakni "Hari dimana aku dan kamu Menjadi Kita" 💌
+
+</p>
+
+</div>
+
+<div class="page">
+
+<h3>26 Juli 2026</h3>
+
+<p>
+
+sudah selama 30 hari kita telah menjalani hubungan.
+
+Aku berharap semoga bukan hanya 30 hari ini saja,
+
+tetapi Aku ingin hubungan kita ini mencapai suatu hubungan yang lebih spesial ke depan nya, 
+dan aku berharap dan berdoa Semoga hubungan kita dapat berlanjut sampai kita di pertemukan dan dipersatukan untuk selamanya.
+
+<br>"Lovee Youu Sayangg nyaa akuu"💕🩷
+
+</p>
+
+</div>
+
+</div>
+
+<button id="nextPage">
+
+Halaman Selanjutnya ❤️
+
+</button>
+
+</section>
+<section class="chat-section">
+
+<h2>💬 Chat Pertama Kita di Discord</h2>
+
+<div class="chat-box">
+
+<div class="left">
+
+Helloww miss
+
+</div>
+
+<div class="right">
+
+sumpah 
+
+</div>
+
+<div class="right">
+
+ini gimana cara pakai nya
+
+</div>
+
+<div class="left">
+
+wkwk emng baruu pertama pake nii
+
+</div>
+
+<div class="right">
+
+ga paham jujur😭😭
+
+</div>
+
+<div class="right">
+
+iya woii
+
+</div>
+<div class="left">
+
+akuu jugaa smaa sii jarangg😭
+
+</div>
+<div class="right">
+
+aku cuma download doang ga pernh pakai
+
+</div>
+<div class="left">
+
+inii tuu buat kaya bisa bikin komunitas gitu
+
+</div>
+<div class="left">
+
+buat komunikasi game bisa belajar bisa
+
+</div>
+<div class="right">
+
+gaptek bgt jujur😭😭
+
+</div>
+<div class="right">
+
+maluuu wkwkw
+
+</div>
+
+</div>
+
+</section>
+<section class="game">
+
+<h2>
+
+Tangkap Hati ❤️
+
+</h2>
+
+<p>
+
+Klik hati sebanyak mungkin!
+
+</p>
+
+<div id="score">
+
+Score : 0
+
+</div>
+
+<div id="gameArea">
+
+</div>
+
+</section>
+<!-- ========================= -->
+<!-- Footer -->
+<!-- ========================= -->
+
+<footer>
+
+Made with ❤️ by Your Love
+
+</footer>
+
+<!-- Confetti -->
+
+<canvas id="confetti"></canvas>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
